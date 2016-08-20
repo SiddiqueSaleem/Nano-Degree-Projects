@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:background="#C5E1A5"
+    tools:context="com.example.siddique.first_application_practice.MainActivity"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:src="@drawable/cateresr"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USMAN CATERERS"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:paddingTop="5sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Great Food....! Makes a Great Party!"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:paddingTop="5sp"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_access_time_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Office Time: 9:00am-8:00pm"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:paddingTop="10sp"
+            android:paddingLeft="5sp"
+
+            />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_local_phone_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us: (+92) 111-110-101"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:paddingTop="10sp"
+            android:paddingLeft="5sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_place_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Office Adress: Suite# 2 and 3,Mezzanine Floor,Society Apartment,Kashmir Road,Karachi."
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:paddingTop="10sp"
+            android:paddingLeft="5sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mail_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail Us:info@Usmancaterers.com"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:paddingTop="10sp"
+            android:paddingLeft="5sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
